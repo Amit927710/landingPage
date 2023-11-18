@@ -25,12 +25,36 @@ p, h1, h2{
 .banner h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
 }
 
-.banner a {
+.banner p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 15px 0px;
+    line-height: 1.25;
+}
+
+.banner-content button {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 100px 150px;
+    gap: 50px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px;
 }
 
 .header a {
